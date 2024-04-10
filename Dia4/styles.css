@@ -1,22 +1,16 @@
 #contenedor {
+    gap: 10px;
     margin: 2%;
     border-radius: 2%;
     background-color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-.columna {
-    width: 50%;
+    display: grid;
     padding: 10px;
 }
-img {
-    width: 100%;
-    display: block;
-    margin-bottom: 10px;
+iframe{
+    height: 200;
+    width: 200;
 }
-.video{
-    width: 100%;
-    display: block;
-    margin-bottom: 10px;
-}
+.item3{
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}   
